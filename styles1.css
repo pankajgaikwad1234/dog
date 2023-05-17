@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+}
+.main{
+    padding: 20px;
+}
+.cards{
+    width: 20%;
+    padding: 10px;
+    background-color:white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 65px;
+    box-shadow: 2px 2px 5px black;
+}
+.image img{
+    width:100%;
+    border-top-right-radius: 5px;
+    border-top-Left-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+}
+
+.des{
+    text-align: center;
+    padding: 10px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
